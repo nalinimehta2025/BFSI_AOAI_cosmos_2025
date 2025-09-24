@@ -292,6 +292,14 @@ Run following command
  1.  cleanup command - try executing if it is not refreshing
 ```sh
  npm cache clean --force
+ npm install esbuild@0.25.0 --save-dev
+
+npm install
+
+
+
+npm list esbuild
+
  ```
 
 
