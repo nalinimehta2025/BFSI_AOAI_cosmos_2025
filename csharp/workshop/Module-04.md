@@ -509,7 +509,10 @@ Uncomment the following line in the `BuildAgentGroupChat` function.
 
 Now that we have log information for AgentSelection and Termination, we also need to persist these logs for later retrieval. Storing these DebugLogs in the ChatData container of Cosmos DB along with the other chat data will help us view the logs in the context of the conversation.
 
+
 Navigate to `Services\SemanticKernelService.cs`
+ add following using statement at top with other 
+ using MultiAgentCopilot.ChatInfrastructure.Helper;
 
 Replace the  `GetResponse` function code with the following code.
 
