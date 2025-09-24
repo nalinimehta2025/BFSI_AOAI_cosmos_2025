@@ -698,8 +698,8 @@ So far, we have created four agents, each with its own specialized role. However
 To perform the tests, we will repeat the steps below for each agent type.
 
 To begin, navigate to the `ChatInfrastructure` project.
-
-Open the `Services` folder.
+.
+Open the `Services` folder, in file SemanticKernelService.cs,
 
 Locate the `GetResponse()` function.
 
