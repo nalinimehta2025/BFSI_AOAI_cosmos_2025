@@ -281,13 +281,19 @@ Use the steps below to validate that the solution was deployed successfully.
    - Copy the URL from the **Ports** tab and use this for the environments.ts file
 
  1. Error : Esbuild failed
+   ```sh
    npm install @angular-devkit/build-angular --save-dev
+  ```
 
  1. For issue :npm error Error: Expected "0.25.0" but got "0.24.2"
+Run following command
+ ```sh
     npm install esbuild@0.25.0
-
- 1. cleanup
+ ```
+ 1. cleanup command - try executing if it is not refreshing
+```sh
  npm cache clean --force
+ ```
 
 
 
