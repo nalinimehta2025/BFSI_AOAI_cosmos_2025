@@ -284,12 +284,12 @@ Use the steps below to validate that the solution was deployed successfully.
    ```sh
    npm install @angular-devkit/build-angular --save-dev
   ```
- 1. For issue :npm error Error: Expected "0.25.0" but got "0.24.2"
+ 1.  For issue :npm error Error: Expected "0.25.0" but got "0.24.2"
 Run following command
  ```sh
     npm install esbuild@0.25.0
  ```
- 1. cleanup command - try executing if it is not refreshing
+ 1.  cleanup command - try executing if it is not refreshing
 ```sh
  npm cache clean --force
  ```
