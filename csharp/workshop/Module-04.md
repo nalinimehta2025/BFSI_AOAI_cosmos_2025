@@ -611,6 +611,8 @@ In the previous module we tested each agent independently. With the code changes
     1. How much did I spend on groceries? (If prompted, say over the last 6 months)
     1. Provide me a statement of my account. (If prompted, give it an account number ranging from `Acc001` to `Acc009`)
 1. Expected response: The response is inline with the Agent's prompts and plugins.
+2. <img width="1157" height="770" alt="image" src="https://github.com/user-attachments/assets/0706e4d9-5b50-45cd-9318-cad37ed1503b" />
+
 
 ### 4. Stop the Application
 
